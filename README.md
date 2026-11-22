@@ -32,7 +32,7 @@ PHP 8.1+, PDO, MySQL/MariaDB, HTML5, CSS3, sesiones PHP y XAMPP para desarrollo 
 7. Añadir la URL pública y capturas reales a este README.
 
 ## Capturas de pantalla
-**Pendientes de tomar después del despliegue:** inicio de sesión, panel y formulario de contacto. Guardarlas en `capturas/` y enlazarlas aquí.
+Inicio de sesión, panel y formulario de contacto. `docs/capturas/` 
 
 ## Seguridad
 Contraseñas con `password_hash()` y `password_verify()`; PDO con consultas preparadas; sesiones; validaciones en servidor; escape HTML; CSRF; y restricción por `id_usuario` en las consultas, actualizaciones y eliminaciones. El ordenamiento usa una lista blanca de columnas.
