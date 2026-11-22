@@ -32,7 +32,21 @@ PHP 8.1+, PDO, MySQL/MariaDB, HTML5, CSS3, sesiones PHP y XAMPP para desarrollo 
 7. Añadir la URL pública y capturas reales a este README.
 
 ## Capturas de pantalla
-Inicio de sesión, panel y formulario de contacto. `docs/capturas/` 
+
+### 1. Inicio de sesión
+![Inicio de sesión](docs/capturas/01-login.png)
+
+### 2. Panel principal
+![Panel principal de contactos](docs/capturas/02-panel.png)
+
+### 3. Búsqueda de contactos
+![Búsqueda de contactos](docs/capturas/03-busqueda.png)
+
+### 4. Categorías
+![Clasificación por categorías](docs/capturas/04-categorias.png)
+
+### 5. Contactos favoritos
+![Contactos favoritos](docs/capturas/05-favoritos.png)
 
 ## Seguridad
 Contraseñas con `password_hash()` y `password_verify()`; PDO con consultas preparadas; sesiones; validaciones en servidor; escape HTML; CSRF; y restricción por `id_usuario` en las consultas, actualizaciones y eliminaciones. El ordenamiento usa una lista blanca de columnas.
