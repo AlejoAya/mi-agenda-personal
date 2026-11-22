@@ -1,0 +1,3 @@
+<?php $pageTitle = $pageTitle ?? 'Mi Agenda Personal'; ?>
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title><?= e($pageTitle) ?> | Mi Agenda</title><link rel="stylesheet" href="assets/style.css"></head><body>
+<header class="topbar"><div class="container nav"><a class="brand" href="index.php">◉ Mi Agenda</a><nav><?php if (!empty($_SESSION['user_id'])): ?><a href="index.php">Contactos</a><form method="post" action="logout.php" class="inline"><?= csrf_field() ?><button class="linkbtn" type="submit">Cerrar sesión</button></form><?php else: ?><a href="login.php">Ingresar</a><a href="register.php">Registrarse</a><?php endif; ?></nav></div></header><main class="container">
